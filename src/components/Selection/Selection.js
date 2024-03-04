@@ -7,7 +7,7 @@ const Selection = ({ levels }) => {
     <div className="subjects">
       {
         levels.map((level, index) => (
-          <Link to={`/${level}`}><button className={`btn-subjects btn-subjects-${index+1}`}><span className='btn-content'>{level}</span></button></Link>
+          <Link key={index} to={`/${level}`}><button className={`btn-subjects btn-subjects-${index+1}`}><span  className='btn-content'>{level}</span></button></Link>
         ))
       }
     </div>

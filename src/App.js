@@ -11,15 +11,15 @@ function App() {
         <Switch>
 
           <Route exact path='/'>
-          <Home />
+            <Home />
           </Route>
 
           <Route exact path={["/IGCSE", '/AS', '/A2']}>
-          <Subjects />
+            <Subjects />
           </Route>
 
           <Route exact path={["/Chemistry", '/Physics', '/Maths']}>
-          <Years />
+            <Years />
           </Route>
 
         </Switch>

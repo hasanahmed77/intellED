@@ -8,9 +8,9 @@ const AppType = () => {
   const handleClick = e => {
     if(!e.currentTarget.classList.contains('on-click')){
       setIsQuiz(!isQuiz)
-      console.log('isQuiz', isQuiz)
       localStorage.setItem('isQuiz', isQuiz)
     } 
+    console.log(isQuiz)
   }
 
   return (
