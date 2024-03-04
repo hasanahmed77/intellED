@@ -1,0 +1,28 @@
+.app-type {
+    text-align: center;
+}
+
+.btn-app-type {
+    background: none;
+    padding: 1.5rem 2rem 1.5rem 2rem;
+    font-size: larger;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    border-width: 1.5px;
+    cursor: pointer;
+}
+
+.btn-app-type:hover {
+    color: white;
+    background-color: black;
+}
+
+/* Functionality to be added later */
+.on-click {
+    color: white;
+    background-color: black;
+}
+
+.btn-app-type-1 {
+    border-right: 0cap;
+}

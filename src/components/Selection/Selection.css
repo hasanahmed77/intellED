@@ -1,0 +1,46 @@
+@import url('../../App.css');
+
+.subjects {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.btn-subjects {
+    padding: 4rem 3rem 4rem 3rem;
+    background: none;
+    font-size: larger;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    border-width: 1.5px;
+    -ms-transform: skewX(-20deg);
+    -webkit-transform: skewX(-20deg);
+    transform: skewX(-20deg);
+    cursor: pointer;
+}
+
+.btn-content {
+    -ms-transform: skewX(20deg);
+    -webkit-transform: skewX(20deg);
+    transform: skewX(20deg);  
+    display: inline-block;
+}
+
+.btn-subjects:hover {
+    color: white;
+    background-color: black;
+}
+
+.btn-subjects-1 {
+    border-right: 0cap;
+}
+
+.btn-subjects-2{
+    border-right: 0cap;
+}
+
+/* Functionality to be added later */
+.on-click {
+    color: white;
+    background-color: black;
+}
+

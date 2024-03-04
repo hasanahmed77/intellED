@@ -1,0 +1,16 @@
+.years-list{
+    list-style-type: square;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    font-size: larger;
+}
+
+.years-section{
+    margin-left: 10%;
+}
+
+.year-title {
+    margin-left: -1.3%;
+}
+
