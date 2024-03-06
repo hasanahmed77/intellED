@@ -9,12 +9,14 @@ const Years = () => {
     const years = [2020, 2021, 2022, 2023, 2024]
     const [isQuiz, setIsQuiz] = useState(localStorage.getItem('isQuiz'))
 
-    const handleClick = () => {
+    const handleClick = (e) => {
         if(localStorage.getItem('isQuiz') == 'true') {
             console.log('QUIZ')
         } else {
             console.log('QPs')
         }
+
+        localStorage.setItem('year', e.target.innerText)
     }
 
     useEffect(() => {
@@ -44,7 +46,7 @@ const Years = () => {
             <h1 className='year-title'>Years:</h1>
             <ul className='years-list'>
                 { years.map((year, index) => (
-                        <li className='single-year' key={index} onClick={handleClick}><Link to='/'>{year}</Link></li>
+                        <li className='single-year' key={index} onClick={handleClick}><Link to='/sessions'>{year}</Link></li>
                     )) }
             </ul>
         </div>
